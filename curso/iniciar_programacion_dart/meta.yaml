@@ -1,0 +1,27 @@
+name: Empieza a programar con Dart
+type: dart # This should be either "dart" or "flutter".
+steps:
+  - name: Hello, World!
+    directory: hello_world
+    has_solution: false
+  - name: Variables
+    directory: variables
+    has_solution: false
+  - name: Tipos de Datos
+    directory: types
+    has_solution: false
+  - name: Operadores
+    directory: operators
+    has_solution: false
+  - name: Operadores de Asignación Compuesta
+    directory: compound_assignment_operators
+    has_solution: false
+  - name: Cadenas
+    directory: strings
+    has_solution: false 
+  - name: Conversión de Temperaturas
+    directory: temperature
+    has_solution: false
+  - name: Tomando Decisiones
+    directory: making_decisions
+    has_solution: false
