@@ -39,3 +39,22 @@ Debido a que Dart ignora el espacio en blanco, necesitas usar un punto y coma pa
 
 ## Hora de Jugar
 Ahora, tómate un minuto para jugar con este código. Cambia la cadena de caracteres que estás enviando a `print()`. Incluso puedes hacer que diga cosas traviesas, si quieres. Sé que estás deseando intentarlo.
+
+Aunque puede parecer prematuro utilizar un print en conjunto con un bucle `for`, considero que es importante abordarlo en esta etapa para explorar la interacción y la capacidad que ofrece cualquier lenguaje de programación mediante el uso de bucles, como es el caso del bucle `for`. Más adelante, profundizaremos con más ejercicios y pruebas sobre esta temática.
+
+```dart
+void main() {
+  // Imprime un mensaje de bienvenida
+  print("¡Bienvenido al ejercicio de Dart!");
+
+  // Imprime una lista de números del 1 al 10
+  for (int i = 1; i <= 10; i++) {
+    print(i);
+  }
+
+  // Imprime un mensaje de despedida
+  print("¡Eso es todo por ahora!");
+}
+```
+
+
