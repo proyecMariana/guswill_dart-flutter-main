@@ -134,3 +134,7 @@ La versión no compuesta de este operador, sin hacer una asignación, se ve así
 ```
 
 Si no estás seguro de qué es la pequeña línea ondulada, es el carácter de tilde (`~`), que a menudo se encuentra en la parte superior izquierda de tu teclado. En algunos contextos, se usa para representar el concepto de aproximación, y por eso es perfecto para la división entera.
+
+
+## Hora de Jugar
+> **Reto:** Elabora un script en Dart donde puedas definir cuatro variables como entrada y modificar sus valores utilizando operadores de asignación abreviada.
