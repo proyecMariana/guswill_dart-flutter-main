@@ -182,6 +182,3 @@ Incrementa o decrementa el valor en 1</td>
     <td>Asignación</td>
   </tr>
 </table>
-
-## Hora de Jugar
-> **Reto:** Elabora un script en Dart donde puedas definir cuatro variables como entrada y modificar sus valores utilizando operadores de asignación abreviada.
