@@ -1,5 +1,3 @@
-![Hello Word](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Dart-logo-wordmark.svg/2560px-Dart-logo-wordmark.svg.png)
-
 # "Hello!"
 
 Te doy la bienvenida al comienzo de tu aventura para aprender cómo hacer que las computadoras en tu vida hagan lo que tú quieras. Normalmente, esta aventura comienza con un saludo digital: "¡Hola, Mundo!" Saludar al mundo de esta manera es solo cuestión de escribir unas pocas líneas de código :
