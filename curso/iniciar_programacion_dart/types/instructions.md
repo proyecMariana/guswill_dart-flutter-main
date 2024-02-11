@@ -185,6 +185,5 @@ void main() {
 
 Es mejor pensar en `int` y `int?` como tipos similares pero a veces incompatibles.
 
-## ¿Qué sigue?
-
-Aún no has visto ejemplos de cómo usar tipos como `double`, `num`, `bool`, `List` o `Map` (o sus versiones nulas), pero todo eso está por venir pronto.
+## Hora de Jugar
+> **Reto:** Escribe un script en Dart en el cual puedas definir variables de diferentes tipos de datos como int, double, num, bool y String. Luego, asigna valores adecuados a cada tipo de dato y muestra estos valores en pantalla.
