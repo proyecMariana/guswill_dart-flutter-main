@@ -34,7 +34,7 @@ Observa que esta línea está indentada dos espacios. Por convención, la indent
 
 La función `print()` está definida en la biblioteca central de Dart, disponible para todos los programas de Dart. Al igual que tu función `main()`, no devuelve valores (no produce salida de código), pero espera entrada. La entrada debe tener la forma de una _cadena_. Una cadena es una serie de caracteres concatenados (una cadena de caracteres), delimitados por comillas. Por supuesto, en este caso, estás enviando los caracteres que componen la frase "¡Hola, Mundo!" a la función `print()`. La función `print()` acepta la entrada e imprime en la consola del sistema, normalmente una pantalla.
 
-## Entonces _Eso_ Para Qué Sirve un Punto y Coma
+## Entonces Para Qué Sirve un Punto y Coma
 Debido a que Dart ignora el espacio en blanco, necesitas usar un punto y coma para indicar al intérprete de código dónde termina tu declaración. Si olvidas el punto y coma, el intérprete se confundirá e incluso puede quejarse contigo. Intenta eliminar el punto y coma en tu editor de código. Deberías ver aparecer un error. Corrige el problema y el editor volverá a su estado de equilibrio.
 
 ## Hora de Jugar

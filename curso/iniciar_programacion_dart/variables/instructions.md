@@ -72,7 +72,5 @@ void main() {
 }
 ```
 
-## ¿Qué Sigue?
-En las próximas lecciones, verás el punto de utilizar variables en primer lugar. Por ahora, solo toma mi palabra de que el concepto es fundamental para hacer que una computadora haga casi cualquier cosa.
-
-> **Nota:** Esto se complica más adelante, pero por ahora, debes asumir que Dart lee el código de la misma manera que tú: de arriba hacia abajo y de izquierda a derecha. Así que la primera línea de código se ejecuta primero, la segunda después, y así sucesivamente, y cada línea se lee y se ejecuta comenzando desde la izquierda y avanzando hacia la derecha. Obviamente, esto asume que provienes de una cultura occidental.
+## Hora de jugar
+> **Reto:** Si ya has tenido la oportunidad de observar el funcionamiento de un bucle for, podrías considerar que la variable definida se muestre en pantalla en cada iteración hasta que alcance su valor final.

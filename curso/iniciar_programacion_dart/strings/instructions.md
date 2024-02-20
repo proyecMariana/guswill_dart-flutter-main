@@ -154,5 +154,25 @@ La segunda llamada a `print()` interpola otro nuevo tipo de expresión: `nombre.
 
  caracteres están conteniendo. Accedes a estas propiedades usando el operador de punto (`.`).
 
-## ¿Y Ahora Qué?
-Eso concluye nuestra introducción a las cadenas de texto de Dart. 
+## Hora de Jugar
+> **Reto:** Elabora un script en Dart donde definas cuatro variables de entrada. Luego, realiza operaciones matemáticas y manipulación de cadenas directamente con estas variables, utilizando la función print para mostrar los resultados.
+```dart
+void main() {
+  // Definir cuatro variables de entrada
+  int numero1 = 10;
+  int numero2 = 5;
+  double decimal = 3.5;
+  String cadena = "Dart";
+
+  // Realizar operaciones matemáticas y de manejo de cadena de forma directa
+  int suma = numero1 + numero2;
+  double multiplicacion = numero1 * decimal;
+  String concatenacion = cadena + " es genial";
+
+  // Mostrar los resultados utilizando la función print
+  print("La suma de $numero1 y $numero2 es: $suma");
+  print("El resultado de multiplicar $numero1 por $decimal es: $multiplicacion");
+  print("Cadena concatenada: $concatenacion");
+}
+
+```
