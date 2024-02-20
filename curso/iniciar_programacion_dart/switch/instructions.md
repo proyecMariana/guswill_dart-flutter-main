@@ -1,96 +1,94 @@
+```markdown
 # Switch
 
-The `if` statement is probably the most common control structure you'll use when programming with Dart, and it can handle most jobs, but when you need to make a decision between a large number of possibilities, `if` can become unwieldy.
+La instrucción `if` es probablemente la estructura de control más común que usarás al programar con Dart, y puede manejar la mayoría de los trabajos, pero cuando necesitas tomar una decisión entre un gran número de posibilidades, `if` puede volverse engorroso.
 
-## Not the Best Way
-Suppose you were writing a program for users playing a fantasy role-playing game. Your program suggests appropriate weapons for a character based on the fantasy race the player has elected to play.
+## No es la Mejor Manera
+Supongamos que estás escribiendo un programa para usuarios que juegan un juego de rol de fantasía. Tu programa sugiere armas apropiadas para un personaje según la raza de fantasía que el jugador ha elegido jugar.
 
 ```dart
 void main() {
-  String characterRace = "elf";
+  String razaPersonaje = "elfo";
 
-  if (characterRace == "dwarf") {
-    print("Battle Axe");
-  } else if (characterRace == "elf") {
-    print("Longbow");
-  } else if (characterRace == "goblin") {
-    print("Short Sword");
-  } else if (characterRace == "halfling") {
-    print("Dagger");
-  } else if (characterRace == "human") {
-    print("Longsword");
-  } else if (characterRace == "orc") {
-    print("Mace");
+  if (razaPersonaje == "enano") {
+    print("Hacha de Batalla");
+  } else if (razaPersonaje == "elfo") {
+    print("Arco Largo");
+  } else if (razaPersonaje == "trasgo") {
+    print("Espada Corta");
+  } else if (razaPersonaje == "mediano") {
+    print("Daga");
+  } else if (razaPersonaje == "humano") {
+    print("Espada Larga");
+  } else if (razaPersonaje == "orco") {
+    print("Maza");
   } else {
-    print("Club");
+    print("Garrote");
   }
 }
 ```
 
-This giant stack of `if`, `else if`, and `else` statements makes a weapon recommendation for six different character races and offers up a club in the event the player has chosen something else. The code works and works well. It does the job. But can we do better?
+Esta gran cantidad de declaraciones `if`, `else if` y `else` hace una recomendación de arma para seis razas de personajes diferentes y ofrece un garrote en caso de que el jugador haya elegido algo más. El código funciona y hace bien su trabajo. Pero, ¿podemos hacerlo mejor?
 
-## A Better Way
-Introducing the `switch` statement! Yes, `switch` was designed to handle just this sort of thing, and with less typing:
+## Una Mejor Manera
+¡Introduciendo la instrucción `switch`! Sí, `switch` fue diseñado para manejar exactamente este tipo de situaciones, y con menos escritura:
 
 ```dart
 void main() {
-  String characterRace = "elf";
+  String razaPersonaje = "elfo";
   
-  switch (characterRace) {
-    case "dwarf":
-      print("Battle Axe");
+  switch (razaPersonaje) {
+    case "enano":
+      print("Hacha de Batalla");
       break;
-    case "elf":
-      print("Longbow");
+    case "elfo":
+      print("Arco Largo");
       break;
-    case "goblin":
-      print("Short Sword");
+    case "trasgo":
+      print("Espada Corta");
       break;
-    case "halfling":
-      print("Dagger");
+    case "mediano":
+      print("Daga");
       break;
-    case "human":
-      print("Longsword");
+    case "humano":
+      print("Espada Larga");
       break;
-    case "orc":
-      print("Mace");
+    case "orco":
+      print("Maza");
       break;
     default:
-      print("Club");
+      print("Garrote");
   }
 }
 ```
 
-Using the `switch` statement is a bit more succinct. It doesn't necessarily use fewer lines, but it's easier to see what options are handled at a glance.
+Usar la instrucción `switch` es un poco más sucinto. No necesariamente usa menos líneas, pero es más fácil ver qué opciones se manejan con solo un vistazo.
 
-In the parentheses following the `switch` keyword, you specify the variable to be examined. For each value you want to support, you include a `case` keyword, followed immediately by a valid value. If the variable's value matches any particular case, the instructions after that case's colon (`:`) are executed. When the `break` keyword is encountered, Dart breaks out of the `switch` statement, continuing execution below the closing brace.
+En los paréntesis que siguen a la palabra clave `switch`, especificas la variable a examinar. Para cada valor que deseas admitir, incluyes una palabra clave `case`, seguida inmediatamente por un valor válido. Si el valor de la variable coincide con algún caso en particular, se ejecutan las instrucciones después de los dos puntos (`:`) de ese caso. Cuando se encuentra la palabra clave `break`, Dart sale de la instrucción `switch`, continuando la ejecución debajo de la llave de cierre.
 
-The `default` case, which you'll note does not require a `break`, is optional, but acts much like an `else` statement in that it handles the case when all previous tests are `false`. If `characterRace` doesn't match any of the races specified, the `default` instructions will run.
+El caso `default`, que no requiere un `break`, es opcional, pero actúa de manera similar a una declaración `else` en el sentido de que maneja el caso cuando todas las pruebas anteriores son `false`. Si `razaPersonaje` no coincide con ninguna de las razas especificadas, se ejecutarán las instrucciones `default`.
 
-## To Break or Not to Break?
-There are times when you might omit the `break` instruction in a `case`. In our fictional fantasy game, maybe you want to handle the result of a die roll during a battle:
+## ¿Poner o no poner Break?
+Hay momentos en los que puedes omitir la instrucción `break` en un `case`. En nuestro juego de fantasía ficticio, tal vez quieras manejar el resultado de un lanzamiento de dados durante una batalla:
 
 ```dart
 void main() {
-  int attackRoll = 5;
+  int tiradaAtaque = 5;
   
-  switch (attackRoll) {
+  switch (tiradaAtaque) {
     case 1:
     case 2:
     case 3:
-      print("You missed!");
+      print("¡Fallaste!");
       break;
     case 4:
     case 5:
     case 6:
-      print("You hit!");
+      print("¡Diste en el blanco!");
       break;
   }
 }
 ```
 
-Here, if `attackRoll` is 1, Dart begins executing that case, but finds no `break`, so it _falls through_ to the next case until a `break` is encountered. A roll of 1, 2, or 3 will result in a miss, while a roll of 4, 5, or 6 will not. No `default` clause is provided this time because an attack roll in this fictional game should always fall between 1 and 6.
+Aquí, si `tiradaAtaque` es 1, Dart comienza ejecutando ese caso, pero no encuentra un `break`, así que _cae a través_ hasta el siguiente caso hasta que se encuentre un `break`. Un resultado de 1, 2 o 3 resultará en un fallo, mientras que un resultado de 4, 5 o 6 no. Esta vez no se proporciona una cláusula `default` porque un lanzamiento de ataque en este juego ficticio siempre debería estar entre 1 y 6.
 
-## Play With It
-
-Try changing the value of `attackRoll` to produce different results.
