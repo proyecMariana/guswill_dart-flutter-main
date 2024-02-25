@@ -2,7 +2,7 @@
 Antes de acceder a cada uno de los temas de Dart y Flutter, puedes abrir el editor en línea de DartPad para practicar:
 
 
-[DartPad - Editor en línea](https://dartpad.dev/){:target="_blank"}
+<a href="https://dartpad.dev/" target="_blank">DartPad - Editor en línea</a>
 
 
 - [1. Hello World](https://github.com/proyecMariana/guswill_dart-flutter-main/blob/main/curso/iniciar_programacion_dart/1.%20hello_world/instructions.md)
