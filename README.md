@@ -26,7 +26,7 @@ Antes de acceder a cada uno de los temas de Dart y Flutter, puedes abrir el edit
 
 - [11. Bucles While](https://github.com/proyecMariana/guswill_dart-flutter-main/blob/main/curso/iniciar_programacion_dart/11.%20Bucles%20While/instructions.md)
 
-- [12. Bucles Do While](https://github.com/proyecMariana/guswill_dart-flutter-main/blob/main/curso/iniciar_programacion_dart/12.%20Bucle%20Do%20While/instrucctions.mdd)
+- [12. Bucles Do While](https://github.com/proyecMariana/guswill_dart-flutter-main/blob/main/curso/iniciar_programacion_dart/12.%20Bucle%20Do%20While/instrucctions.md)
 
 - [13.Funciones](https://github.com/proyecMariana/guswill_dart-flutter-main/blob/main/curso/iniciar_programacion_dart/13.%20Funciones/instructions.md)
 
