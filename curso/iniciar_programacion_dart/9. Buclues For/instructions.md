@@ -1,4 +1,4 @@
-```markdown
+
 # Bucles For
 
 Es hora de hablar de otra forma de hacer un bucle. ¿Por qué hay tantos tipos diferentes de bucles? Con un poco de ingenio, realmente podrías hacer la mayoría de los trabajos con solo un tipo de bucle, pero algunos tipos son más adecuados para ciertos problemas que otros. No te sientas mal si aún no puedes identificar cuál es el mejor en una situación determinada. Solo tres de nosotros nacimos con ese conocimiento innato, y al resto de ustedes les toca aprender.

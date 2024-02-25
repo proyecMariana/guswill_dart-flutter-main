@@ -1,4 +1,4 @@
-```markdown
+
 # Switch
 
 La instrucción `if` es probablemente la estructura de control más común que usarás al programar con Dart, y puede manejar la mayoría de los trabajos, pero cuando necesitas tomar una decisión entre un gran número de posibilidades, `if` puede volverse engorroso.
