@@ -1,3 +1,4 @@
+# [Regresar al menú](https://github.com/proyecMariana/guswill_dart-flutter-main/tree/main)
 
 # Switch
 
@@ -91,4 +92,6 @@ void main() {
 ```
 
 Aquí, si `tiradaAtaque` es 1, Dart comienza ejecutando ese caso, pero no encuentra un `break`, así que _cae a través_ hasta el siguiente caso hasta que se encuentre un `break`. Un resultado de 1, 2 o 3 resultará en un fallo, mientras que un resultado de 4, 5 o 6 no. Esta vez no se proporciona una cláusula `default` porque un lanzamiento de ataque en este juego ficticio siempre debería estar entre 1 y 6.
+
+# [Regresar al menú](https://github.com/proyecMariana/guswill_dart-flutter-main/tree/main)
 

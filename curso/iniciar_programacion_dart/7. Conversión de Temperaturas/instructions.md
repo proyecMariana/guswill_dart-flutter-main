@@ -1,5 +1,4 @@
-
-![Conversión Temperaturas](https://0grados.com/admin/wp-content/uploads/2018/02/FoRMULAS-DE-CONVERSIoN-DE-TEMPERATURA.jpg)
+# [Regresar al menú](https://github.com/proyecMariana/guswill_dart-flutter-main/tree/main)
 
 # Conversión de Temperaturas
 
@@ -44,3 +43,5 @@ Observa que en la primera expresión de conversión, `(f - 32) / 1.8`, se utiliz
 
 ## Puntos Extra
 Juega con diferentes valores de entrada para obtener diferentes resultados. Para práctica adicional, intenta agregar otro tipo de conversión, quizás a la escala Kelvin.
+
+# [Regresar al menú](https://github.com/proyecMariana/guswill_dart-flutter-main/tree/main)
