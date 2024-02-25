@@ -29,9 +29,9 @@
 
 - [14. Funciones con Parámetros](https://github.com/proyecMariana/guswill_dart-flutter-main/blob/main/curso/iniciar_programacion_dart/14.%20Funciones%20con%20Parametros/instructions.md)
 
-- [15. Mas ACerca de Funciones](https://github.com/proyecMariana/guswill_dart-flutter-main/blob/main/curso/iniciar_programacion_dart/15.%20Mas%20acerda%20de%20las%20Funciones/instructions.md)
+- [15. Mas Acerca de Funciones](https://github.com/proyecMariana/guswill_dart-flutter-main/blob/main/curso/iniciar_programacion_dart/15.%20Mas%20acerda%20de%20las%20Funciones/instructions.md)
 
-- [16. Funciones que retornan valores](https://github.com/proyecMariana/guswill_dart-flutter-main/blob/main/curso/iniciar_programacion_dart/16.%20Funciones%20que%20retornan%20valores/instructions.md)
+- [16. Funciones que Retornan Valores](https://github.com/proyecMariana/guswill_dart-flutter-main/blob/main/curso/iniciar_programacion_dart/16.%20Funciones%20que%20retornan%20valores/instructions.md)
 
 - [17. Ambito de las Variables](https://github.com/proyecMariana/guswill_dart-flutter-main/blob/main/curso/iniciar_programacion_dart/17.%20Ambito%20de%20las%20Variables/instructions.md)
 
