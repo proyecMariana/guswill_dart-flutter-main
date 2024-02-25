@@ -36,7 +36,7 @@ Antes de acceder a cada uno de los temas de Dart y Flutter, puedes abrir el edit
 
   Descubre cómo usar la declaración "if" en Dart para tomar decisiones basadas en evaluaciones booleanas, como determinar si hace frío o no.
 
-- [9. Tomando Decisiones](https://github.com/proyecMariana/guswill_dart-flutter-main/blob/main/curso/iniciar_programacion_dart/9.%20Buclues%20For/instructions.md)
+- [9. Bucle For](https://github.com/proyecMariana/guswill_dart-flutter-main/blob/main/curso/iniciar_programacion_dart/9.%20Buclues%20For/instructions.md)
 
   Aprende sobre la estructura típica de un bucle "for" y cómo se utiliza para realizar tareas repetitivas, como contar y realizar operaciones en una secuencia.
 
