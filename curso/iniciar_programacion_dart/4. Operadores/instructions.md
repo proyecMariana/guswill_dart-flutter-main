@@ -1,3 +1,5 @@
+# [Regresar al menú](https://github.com/proyecMariana/guswill_dart-flutter-main/tree/main)
+
 # Operadores
 
 El término "operador" proviene de las matemáticas, pero en un lenguaje de programación, su significado es ligeramente diferente. En matemáticas, un operador es simbólico y abstracto. En Dart, los operadores instruyen a la computadora a realizar operaciones sobre operandos. Un operando es cualquier valor sobre el cual se realizará una operación.
@@ -182,3 +184,5 @@ Incrementa o decrementa el valor en 1</td>
     <td>Asignación</td>
   </tr>
 </table>
+
+# [Regresar al menú](https://github.com/proyecMariana/guswill_dart-flutter-main/tree/main)

@@ -1,3 +1,5 @@
+# [Regresar al menú](https://github.com/proyecMariana/guswill_dart-flutter-main/tree/main)
+
 # Variables
 
 Las variables son un bloque básico de la mayoría de los programas modernos. En resumen, una variable es un alias de una ubicación de memoria de la computadora, en la que se almacenará algo de interés. Lo que se almacena allí se dice que es el valor de la variable. Si has estudiado los conceptos básicos del álgebra, es posible que recuerdes las variables principalmente como sustitutos de una sola letra para números que te ayudaron a conceptualizar y resolver ecuaciones complejas. Las variables de Dart son similares pero no exactamente iguales, ya que son capaces de sustituir todo tipo de valores: números, cadenas de caracteres o incluso estructuras más complejas que representan personas, transacciones económicas o ubicaciones geográficas.
@@ -74,3 +76,5 @@ void main() {
 
 ## Hora de jugar
 > **Reto:** Si ya has tenido la oportunidad de observar el funcionamiento de un bucle for, podrías considerar que la variable definida se muestre en pantalla en cada iteración hasta que alcance su valor final.
+# [Regresar al menú](https://github.com/proyecMariana/guswill_dart-flutter-main/tree/main)
+

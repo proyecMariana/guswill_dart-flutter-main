@@ -1,3 +1,5 @@
+# [Regresar al menú](https://github.com/proyecMariana/guswill_dart-flutter-main/tree/main)
+
 # Operadores de Asignación Compuesta
 
 Además de los operadores ya discutidos, Dart admite una serie de operadores de conveniencia que combinan múltiples operaciones. Por lo general, estos operadores combinan operaciones matemáticas y de asignación, y utilizarlos puede ahorrarte algo de escritura.
@@ -138,3 +140,4 @@ Si no estás seguro de qué es la pequeña línea ondulada, es el carácter de t
 
 ## Hora de Jugar
 > **Reto:** Elabora un script en Dart donde puedas definir cuatro variables como entrada y modificar sus valores utilizando operadores de asignación abreviada.
+# [Regresar al menú](https://github.com/proyecMariana/guswill_dart-flutter-main/tree/main)

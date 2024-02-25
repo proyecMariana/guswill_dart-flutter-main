@@ -1,7 +1,7 @@
-# [Regresar al menú](https://github.com/proyecMariana/guswill_dart-flutter-main/tree/main)
-# "Hello!"
+#[Regresar al menú](https://github.com/proyecMariana/guswill_dart-flutter-main/tree/main)
 
-Te doy la bienvenida al comienzo de tu aventura para aprender cómo hacer que las computadoras en tu vida hagan lo que tú quieras. Normalmente, esta aventura comienza con un saludo digital: "¡Hola, Mundo!" Saludar al mundo de esta manera es solo cuestión de escribir unas pocas líneas de código :
+# "Hello!"
+Te doy la bienvenida al comienzo de tu aventura para aprender cómo hacer que las computadoras en tu vida hagan lo que tú quieras. N#ormalmente, esta aventura comienza con un saludo digital: "¡Hola, Mundo!" Saludar al mundo de esta manera es solo cuestión de escribir unas pocas líneas de código :
 
 ```dart
 void main() {
@@ -47,7 +47,7 @@ Aunque puede parecer prematuro utilizar un print en conjunto con un bucle `for`,
 void main() {
   // Imprime un mensaje de bienvenida
   print("¡Bienvenido al ejercicio de Dart!");
-
+#
   // Imprime una lista de números del 1 al 10
   for (int i = 1; i <= 10; i++) {
     print(i);
@@ -58,4 +58,4 @@ void main() {
 }
 ```
 
-[Regresar al menú](https://github.com/proyecMariana/guswill_dart-flutter-main/tree/main)
+#[Regresar al menú](https://github.com/proyecMariana/guswill_dart-flutter-main/tree/main)

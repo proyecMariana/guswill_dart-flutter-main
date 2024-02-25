@@ -1,3 +1,5 @@
+# [Regresar al menú](https://github.com/proyecMariana/guswill_dart-flutter-main/tree/main)
+
 # Tipos
 
 Las variables en Dart vienen en muchos tipos diferentes. Algunas variables están destinadas a contener números, algunas caracteres, y algunas apuntan a valores más complejos. Al declarar variables, puedes permitir que Dart intente inferir el tipo previsto de tu variable o puedes ser explícito.
@@ -187,3 +189,6 @@ Es mejor pensar en `int` y `int?` como tipos similares pero a veces incompatible
 
 ## Hora de Jugar
 > **Reto:** Escribe un script en Dart en el cual puedas definir variables de diferentes tipos de datos como int, double, num, bool y String. Luego, asigna valores adecuados a cada tipo de dato y muestra estos valores en pantalla.
+
+# [Regresar al menú](https://github.com/proyecMariana/guswill_dart-flutter-main/tree/main)
+
