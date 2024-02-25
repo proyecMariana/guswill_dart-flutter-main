@@ -1,6 +1,3 @@
-Para que cada título y su texto descriptivo aparezcan en líneas separadas en Markdown, puedes agregar un espacio en blanco después del título y antes de comenzar el texto descriptivo. Aquí tienes cómo podrías hacerlo:
-
-```markdown
 # Aprendizaje de Dart y Flutter
 
 Antes de acceder a cada uno de los temas de Dart y Flutter, puedes abrir el editor en línea de DartPad para practicar:
@@ -30,6 +27,3 @@ Antes de acceder a cada uno de los temas de Dart y Flutter, puedes abrir el edit
 - [6. Cadenas](https://github.com/proyecMariana/guswill_dart-flutter-main/blob/main/curso/iniciar_programacion_dart/6.%20Cadenas/instructions.md)
 
   Aprende sobre el manejo de cadenas de texto en Dart, incluyendo la concatenación, interpolación y métodos de manipulación de cadenas.
-```
-
-Este formato hará que cada título y su texto descriptivo aparezcan en líneas separadas para una mejor legibilidad.
