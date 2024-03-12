@@ -129,4 +129,118 @@ void printLista(List<String> lista) {
 
 Con esta versión, la variable `elemento` apunta a cada uno de los elementos de la lista en secuencia, uno por cada iteración. La primera vez que se ejecuta el cuerpo del bucle, `elemento` será "Dart", luego "JavaScript", y así sucesivamente. Si la lista no tiene elementos, el bucle no se ejecutará en absoluto, al igual que cuando estamos verificando manualmente la longitud de la lista. Este bucle es genial cuando quieres iterar sobre una lista completa y realizar alguna acción en cada elemento.
 
+# Ejemplo práctico
+```dart
+import 'dart:convert';
+import 'package:http/http.dart' as http;
+
+void main() {
+  final url = Uri.parse('https://jsonplaceholder.typicode.com/albums'); // Reemplaza esto con tu URL real
+
+  http.get(url).then((response) {
+    if (response.statusCode == 200) {
+      // Si la solicitud fue exitosa (código de estado 200)
+      List<dynamic> data = json.decode(response.body);
+      // Itera sobre cada registro
+      for (var registro in data) {
+        int userId = registro['userId'];
+        int id = registro['id'];
+        String title = registro['title'];
+        print('userId: $userId, id: $id, title: $title');
+      }
+    } else {
+      // Si la solicitud no fue exitosa
+      print('Error al obtener datos: ${response.statusCode}');
+    }
+  }).catchError((error) {
+    // Manejar errores de solicitud
+    print('Error: $error');
+  });
+}
+ 
+import 'dart:convert';
+import 'package:http/http.dart' as http;
+
+void main() {
+  final url = Uri.parse('https://jsonplaceholder.typicode.com/albums');
+
+  http.get(url).then((response) {
+    if (response.statusCode == 200) {
+      List<dynamic> data = json.decode(response.body);
+      mostrarMenu(data);
+    } else {
+      print('Error al obtener datos: ${response.statusCode}');
+    }
+  }).catchError((error) {
+    print('Error: $error');
+  });
+}
+
+void mostrarMenu(List<dynamic> data) {
+  print('--- Menú ---');
+  print('1. Listar todos los registros');
+  print('2. Listar registros pares');
+  print('3. Listar registros impares');
+  print('4. Mostrar los 50 primeros registros');
+  print('5. Salir');
+
+  var opcion = '3'; // Asignamos directamente la opción 1
+
+  switch (opcion) {
+    case '1':
+      listarRegistros(data);
+      break;
+    case '2':
+      listarRegistrosPares(data);
+      break;     
+    case '3':
+      listarRegistrosImpares(data);
+      break;        
+  }
+}
+
+void listarRegistros(List<dynamic> data) {
+  print('----------------------');
+  print('Existen ${data.length} registros disponibles');
+  print('| userId | id | title');
+  print('----------------------');
+  for (var registro in data) {
+    int userId = registro['userId'];
+    int id = registro['id'];
+    String title = registro['title'];
+    print('| $userId | $id | $title');
+  }
+}
+
+void listarRegistrosPares(List<dynamic> data) {
+  print('----------------------');
+  print('Existen ${data.length} registros disponibles');
+  print('| userId | id | title');
+  print('----------------------');
+  for (var registro in data) {
+    if (registro['id'] % 2 == 0) {
+      int userId = registro['userId'];
+      int id = registro['id'];
+      String title = registro['title'];
+      print('| $userId | $id | $title');
+    }
+  }
+}
+
+void listarRegistrosImpares(List<dynamic> data) {
+  print('----------------------');
+  print('Existen ${data.length} registros disponibles');
+  print('| userId | id | title');
+  print('----------------------');
+  for (var registro in data) {
+    if (registro['id'] % 2 != 0) {
+      int userId = registro['userId'];
+      int id = registro['id'];
+      String title = registro['title'];
+      print('| $userId | $id | $title');
+    }
+  }
+}
+
+```
 # [Regresar al menú](https://github.com/proyecMariana/guswill_dart-flutter-main/tree/main)
