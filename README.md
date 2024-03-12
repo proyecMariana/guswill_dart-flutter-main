@@ -34,6 +34,8 @@
 - [16. Funciones que Retornan Valores](https://github.com/proyecMariana/guswill_dart-flutter-main/blob/main/curso/iniciar_programacion_dart/16.%20Funciones%20que%20retornan%20valores/instructions.md)
 
 - [17. Ambito de las Variables](https://github.com/proyecMariana/guswill_dart-flutter-main/blob/main/curso/iniciar_programacion_dart/17.%20Ambito%20de%20las%20Variables/instructions.md)
+- [18. Listas](https://github.com/proyecMariana/guswill_dart-flutter-main/blob/main/curso/iniciar_programacion_dart/18.%20Listas/instructions.md)
+- [19. Mas sobre Listas](https://github.com/proyecMariana/guswill_dart-flutter-main/blob/main/curso/iniciar_programacion_dart/19.%20Mas%20sobre%20listas/instructions.md)
 
 - [Actividad 27 de Febrero](https://github.com/proyecMariana/guswill_dart-flutter-main/blob/main/curso/iniciar_programacion_dart/Actividades/instructions_1.md)
 
