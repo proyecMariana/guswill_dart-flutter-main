@@ -129,7 +129,7 @@ void printLista(List<String> lista) {
 
 Con esta versión, la variable `elemento` apunta a cada uno de los elementos de la lista en secuencia, uno por cada iteración. La primera vez que se ejecuta el cuerpo del bucle, `elemento` será "Dart", luego "JavaScript", y así sucesivamente. Si la lista no tiene elementos, el bucle no se ejecutará en absoluto, al igual que cuando estamos verificando manualmente la longitud de la lista. Este bucle es genial cuando quieres iterar sobre una lista completa y realizar alguna acción en cada elemento.
 
-# Ejemplo práctico
+# Ejemplo práctico 1
 ```dart
 import 'dart:convert';
 import 'package:http/http.dart' as http;
@@ -157,7 +157,9 @@ void main() {
     print('Error: $error');
   });
 }
- 
+```
+# Ejemplo práctico 2
+```dart
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 
