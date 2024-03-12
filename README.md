@@ -37,6 +37,7 @@
 - [18. Listas](https://github.com/proyecMariana/guswill_dart-flutter-main/blob/main/curso/iniciar_programacion_dart/18.%20Listas/instructions.md)
 - [19. Mas sobre Listas](https://github.com/proyecMariana/guswill_dart-flutter-main/blob/main/curso/iniciar_programacion_dart/19.%20Mas%20sobre%20listas/instructions.md)
 
-- [Actividad 27 de Febrero](https://github.com/proyecMariana/guswill_dart-flutter-main/blob/main/curso/iniciar_programacion_dart/Actividades/instructions_1.md)
+- [Actividad 27 de Febrero](https://github.com/proyecMariana/guswill_dart-flutter-main/blob/main/curso/iniciar_programacion_dart/Actividades%201/instructions_1.md)
+- [Actividad 04 de Marzo](https://github.com/proyecMariana/guswill_dart-flutter-main/blob/main/curso/iniciar_programacion_dart/Actividades%202/instructions.md)
 
   
