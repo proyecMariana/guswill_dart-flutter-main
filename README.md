@@ -35,4 +35,6 @@
 
 - [17. Ambito de las Variables](https://github.com/proyecMariana/guswill_dart-flutter-main/blob/main/curso/iniciar_programacion_dart/17.%20Ambito%20de%20las%20Variables/instructions.md)
 
+- [Actividad 27 de Febrero](https://github.com/proyecMariana/guswill_dart-flutter-main/blob/main/curso/iniciar_programacion_dart/Actividades/instructions_1.md)
+
   
